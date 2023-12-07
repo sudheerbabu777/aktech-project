@@ -1,0 +1,50 @@
+/* Comments.css */
+
+.card {
+    border-radius: 15px; /* Add rounded corners to the Bootstrap card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* Add styles for the feedback data format */
+  .card p.description {
+    font-size: 16px; /* Adjust the font size */
+    line-height: 1.5; /* Adjust the line height */
+    color: #555; /* Set text color */
+    margin-top: 15px; /* Adjust top margin */
+  }
+  
+  .ceo-image {
+    /* Add your styles for the CEO image here */
+  }
+  
+  .name-container {
+    margin-top: 5px; /* Adjust the top margin for the name container */
+  }
+  
+  .ceo-name {
+    font-size: 18px; /* Adjust the font size for CEO name */
+    margin-bottom: 5px; /* Adjust bottom margin for CEO name */
+  }
+  
+  .ceo-details {
+    font-size: 14px; /* Adjust the font size for CEO details */
+    color: #777; /* Set color for CEO details */
+    margin-bottom: 10px; /* Adjust bottom margin for CEO details */
+  }
+  
+  .list-comments {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px; /* Adjust margin to counteract negative margin from the card */
+  }
+  
+  .list-comments li {
+    list-style-type: none; /* Remove bullet points from the list items */
+    flex: 0 0 50%; /* Each column takes 50% of the container width, making six columns */
+    padding: 15px; /* Add padding to create space between cards */
+  }
+  
+  .list-comments li .card {
+    width: 100%; /* Make sure the card takes 100% of its container */
+  }
+  
