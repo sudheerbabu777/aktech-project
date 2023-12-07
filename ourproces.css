@@ -1,0 +1,18 @@
+.list-proces{
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid #494747;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    overflow-x:auto ;
+    border-radius: 8px;
+}
+
+.list-proces:hover{
+    transform: scale(1.1);
+   
+}
